@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+.text-center img{
+    height: 220px;
+}
+@font-face{
+    font-family: fuente1;
+    src: url(font/Coffee\ Extra.ttf);
+}
+header{
+    background-color: #0ccbff;
+}
+h1{
+    font-family: fuente1;
+    font-size: 50px;
+    text-align: center;
+    color: #fbfbfb;
+}
+footer{
+    background-color: #0ccbff;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+}
+.caja{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-direction: column;
+
+}
+
+.pedido{
+    background: #0d6efd;
+}
+.pedido h1{
+    color: whitesmoke;
+    font-size: 60px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
